@@ -1,0 +1,40 @@
+vars(fdsasd)
+reasign = break link of class and overriding it(use append instead)
+state = attribute
+_private_attribute = "some thing"
+__cmp__() became __lt__, __gt__, __le__, __ge__, __eq__, __ne__
+$PATH
+pip install--> isolate each project
+--> venv
+set PATH=%PATH%;C:\Program Files\IBM\SPSS\Statistics\24\Python3
+-> python -m venv subofvenv
+-> venv\Scripts\activate.bat
+-> where pip
+-> pip install ipython
+-> pip freeze
+pip install --upgrade pip
+-> pip freeze > requirements.txt #create
+-> pip install -r requirements.txt #reinstall
+use #!/usr/bin/env python
+type requirements.txt
+try:
+   x = 0
+   y = 5
+except: #ZeroDivisionError
+        print('error msg')
+except (TypeError, IndexError,ZeroDivisionError)
+except Exception as e:
+       print(e)
+finally:
+       print('close file')
+with open() as f: #try catch and close file
+     pass
+assert True
+def func(number):
+if number is not int:
+   raise TypeError
+     assert number is int
+///////////
+1.add python3 to your path
+2.python -m venv venv
+-> sqlAlchemy
